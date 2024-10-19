@@ -10,7 +10,8 @@
     "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc",
     "g": "npx generate-react-cli component",
-    "g:hook": "npx generate-react-cli component --type=hook"
+    "g:hook": "npx generate-react-cli component --type=hook",
+    "g:icon": "npx generate-favicon --pretty --out=./public/favicon.png"
   },
   "dependencies": {
     "@remix-run/node": "^2.13.1",

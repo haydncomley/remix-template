@@ -9,6 +9,10 @@ import type { LinksFunction } from "@remix-run/node";
 import "./lib/theme/styles.scss"
 
 export const links: LinksFunction = () => [
+  {
+    rel: "icon",
+    href: "favicon.png",
+  },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
